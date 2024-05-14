@@ -36,15 +36,15 @@ namespace VivesBlog.Core
 
             People.AddRange(people);
 
-            var bavoAuthor = new Person { FirstName = "Bavo", LastName = "Ketels", Email = "bavo.ketels@vives.be" };
-            People.Add(bavoAuthor);
+            var nAuthor = new Person { FirstName = "Nicolas", LastName = "Goemanne", Email = "nicolas.goemanne@student.vives.be" };
+            People.Add(nAuthor);
 
             Articles.AddRange(new List<Article>
             {
                 new Article
                 {
                     Title = "Understanding C# Records",
-                    Author = bavoAuthor,
+                    Author = nAuthor,
                     PublishedDate = new DateTime(2023, 10, 5),
                     Description =
                         "An in-depth look at records in C# 9.0 and how they can be used to simplify your data models.",
@@ -68,7 +68,7 @@ namespace VivesBlog.Core
                 new Article
                 {
                     Title = "Effective Debugging in Visual Studio",
-                    Author = bavoAuthor,
+                    Author = nAuthor,
                     PublishedDate = new DateTime(2023, 8, 30),
                     Description =
                         "Learn how to leverage the debugging tools in Visual Studio to quickly find and fix issues in your C# applications.",
@@ -93,7 +93,7 @@ namespace VivesBlog.Core
                 new Article
                 {
                     Title = "Unit Testing Best Practices in C#",
-                    Author = bavoAuthor,
+                    Author = nAuthor,
                     PublishedDate = new DateTime(2023, 12, 5),
                     Description =
                         "Discover best practices for writing effective unit tests in C# that ensure your code is robust and bug-free.",
